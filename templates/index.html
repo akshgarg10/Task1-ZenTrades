@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product List</title>
+    <style>
+      
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        margin: auto;
+        padding: 0;
+      }
+      h1 {
+        text-align: center;
+        margin-top: 40px;
+        border: 5px solid black;
+        width: 300px;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 40px;
+      }
+      table {
+        width: 60%;
+        margin: 20px auto;
+        border-collapse: collapse;
+        border: 2px solid #ddd;
+        background-color: #fff;
+      }
+      th,
+      td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+      tr:hover {
+        background-color: #ddd;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Product List</h1>
+    <table>
+      <tr>
+        <th>Title</th>
+        <th>Price</th>
+        <th>Popularity</th>
+      </tr>
+
+      <tbody>
+        {% for product in products %}
+        <tr>
+          <td>{{ product.title }}</td>
+          <td>{{ product.price }}</td>
+          <td>{{ product.popularity }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </body>
+</html>
