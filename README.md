@@ -1,3 +1,5 @@
+The design is properly working and responsive as well.
+
 ![Screenshot (112)](https://github.com/akshgarg10/task1-ZenTrades/assets/104502015/f78a0761-45b7-4f2f-9061-ca416ceb098b)
 
 ![image](https://github.com/akshgarg10/task1-ZenTrades/assets/104502015/21da8989-202a-4807-985c-75573f11fa44)
