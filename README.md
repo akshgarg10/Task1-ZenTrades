@@ -3,4 +3,5 @@
 <b><i>I was not able to successfully deploy it due to the issue of index.html file being inside a templates folder. However, I am going to upload the ScreenShots of the pages.
 </i></b>
 </h1>
+
 ![image](https://github.com/akshgarg10/task1-ZenTrades/assets/104502015/830b2292-447b-49e5-aa70-b4b0ae446617)
